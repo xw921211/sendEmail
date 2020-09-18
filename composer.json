@@ -1,0 +1,19 @@
+{
+    "name": "happy/send-email",
+    "description": "简单的邮件发送类",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xuewei",
+            "email": "xw921211@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "happy\\": "src/"
+        }
+    }
+}
