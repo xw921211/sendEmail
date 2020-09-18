@@ -19,7 +19,7 @@ class Send{
          * 第四个 $port 代理服务器的端口，smtp默认25号端口
          * 第五个 $isSecurity 到服务器的连接是否为安全连接，默认false
          */
-        $smtper->setServer('smtp.qq.COM', 'xxx', 'xxx');
+        $smtper->setServer('smtp.qq.com', 'xxx', 'xxx');
 
         /*setFrom参数为发件人地址*/
         $smtper->setFrom('xw921211@qq.com');
