@@ -44,7 +44,7 @@ $smtper->setFrom('xxx@xxx.com');
 $smtper->setReceiver('xxx@xxx.com');
 
 /*addAttachment参数为附件地址,没有附件可以不进行调用*/
-$smtper->addAttachment("XXXX.png"); 
+$smtper->addAttachment("xxx.png"); 
 
 /**setMail有两个参数
  * 第一个 $body 邮件主题
